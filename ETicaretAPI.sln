@@ -11,6 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaretAPI.Application", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9CFD13BA-A527-4AEC-8712-800BE6C578D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaretAPI.Infrastructure", "Infrastructure\ETicaretAPI.Infrastructure\ETicaretAPI.Infrastructure.csproj", "{8754E70B-12E5-4273-B3B0-E47FB956177F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaretAPI.Persistence", "Infrastructure\ETicaretAPI.Persistence\ETicaretAPI.Persistence.csproj", "{FDCD409E-ED2B-4F64-992C-69311B64CF7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C2A00E84-27DC-4743-9531-874C8CDD201B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaretAPI.API", "Presentation\ETicaretAPI.API\ETicaretAPI.API.csproj", "{CA217BFF-249F-4B13-B7E2-62EE5293C495}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +33,18 @@ Global
 		{4E51FD4B-D0BC-482E-8A79-D09379473F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E51FD4B-D0BC-482E-8A79-D09379473F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E51FD4B-D0BC-482E-8A79-D09379473F35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8754E70B-12E5-4273-B3B0-E47FB956177F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8754E70B-12E5-4273-B3B0-E47FB956177F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8754E70B-12E5-4273-B3B0-E47FB956177F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8754E70B-12E5-4273-B3B0-E47FB956177F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCD409E-ED2B-4F64-992C-69311B64CF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCD409E-ED2B-4F64-992C-69311B64CF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCD409E-ED2B-4F64-992C-69311B64CF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCD409E-ED2B-4F64-992C-69311B64CF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA217BFF-249F-4B13-B7E2-62EE5293C495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA217BFF-249F-4B13-B7E2-62EE5293C495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA217BFF-249F-4B13-B7E2-62EE5293C495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA217BFF-249F-4B13-B7E2-62EE5293C495}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +52,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{97F37F4C-42E6-49EB-A8D5-13CB4EA41365} = {9C59C01B-DF71-4C5D-BBA7-277695D70849}
 		{4E51FD4B-D0BC-482E-8A79-D09379473F35} = {9C59C01B-DF71-4C5D-BBA7-277695D70849}
+		{8754E70B-12E5-4273-B3B0-E47FB956177F} = {9CFD13BA-A527-4AEC-8712-800BE6C578D1}
+		{FDCD409E-ED2B-4F64-992C-69311B64CF7C} = {9CFD13BA-A527-4AEC-8712-800BE6C578D1}
+		{CA217BFF-249F-4B13-B7E2-62EE5293C495} = {C2A00E84-27DC-4743-9531-874C8CDD201B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E359FCD-C31E-4368-A9FB-E67A40D0A6B1}
