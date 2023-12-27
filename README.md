@@ -30,15 +30,15 @@ Use Angular services in the application layer to connect the user interface to t
 ## Renk Referansı
 
 | Renk             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
 |![#0a192f](https://via.placeholder.com/10/0a192f?text=+) ##00b48a |
 || ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) ##00b48a |
 || ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) ##00b48a |
 || ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) ##00b48a | 
 
 
+  
+## Ortam Değişkenleri
+
 `API_KEY`
 
 `ANOTHER_API_KEY`
-
-  
