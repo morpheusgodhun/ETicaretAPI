@@ -1,8 +1,58 @@
 
-# Building a Mini E-Commerce with Onion Architecture Using Angular
+# Building a Mini E-Commerce with Onion Architecture Using Angula
 
 
-Onion Architecture is a design approach for software development, suggesting the division of software projects into layers, where each layer has a specific responsibility. This approach aims to create an internal structure by inverting the dependencies of the software. To implement Onion Architecture using Angular for building a mini e-commerce application, you can follow the steps below:
+Onion Architecture is a design approach for software development, suggesting the division of software projects into layers, where each layer has a specific responsibility. This approach aims to create an internal structure by inverting the dependencies of the software. To implement Onion Architecture using Angular for building a mini e-commerce application, you can follow the steps below
+
+
+
+## API Kullanımı
+
+#### Tüm öğeleri getir
+
+```http
+  GET /api/items
+```
+
+| Parametre | Tip     | Açıklama                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Gerekli**. API anahtarınız. |
+
+#### Öğeyi getir
+
+```http
+  GET /api/items/${id}
+```
+
+| Parametre | Tip     | Açıklama                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Gerekli**. Çağrılacak öğenin anahtar değeri |
+
+#### add(num1, num2)
+
+  ## Renk Referansı
+
+| Renk             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Color1 | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) ##00b48a |
+| Color2| ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) ##00b48a |
+| Color3 | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) ##00b48a |
+| Color4 | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) ##00b48a | 
+
+`API_KEY`
+
+`ANOTHER_API_KEY`
+
+  
+## Testler
+
+Testleri çalıştırmak için aşağıdaki komutu çalıştırın
+
+```bash
+  npm run test
+  ***uoc mock
+```
+## Proje Yapısı
 
 Create Project Structure:
 
@@ -27,18 +77,38 @@ User Interface Development:
 Leverage Angular components to create the user interface in the presentation layer.
 Use Angular services in the application layer to connect the user interface to the application logic.
 
-## Renk Referansı
+  
+## Lisans
 
-| Renk             | Hex                                                                |
-|![#0a192f](https://via.placeholder.com/10/0a192f?text=+) ##00b48a |
-|| ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) ##00b48a |
-|| ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) ##00b48a |
-|| ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) ##00b48a | 
-
+[MIT](https://choosealicense.com/licenses/mit/)
 
   
-## Ortam Değişkenleri
+![Proje Logo](images/OB.png)
+    
+## Bilgisayarınızda Çalıştırın
 
-`API_KEY`
+Projeyi klonlayın
 
-`ANOTHER_API_KEY`
+```bash
+  git clone https://link-to-project
+```
+
+Proje dizinine gidin
+
+```bash
+  cd my-project
+```
+
+Gerekli paketleri yükleyin
+
+```bash
+  npm install
+```
+
+Sunucuyu çalıştırın
+
+```bash
+  npm run start
+```
+
+  
