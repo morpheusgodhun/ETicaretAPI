@@ -1,5 +1,5 @@
 
-# Building a Mini E-Commerce with Onion Architecture Using Angula
+# Building a Mini E-Commerce with Onion Architecture Using Angular
 
 
 Onion Architecture is a design approach for software development, suggesting the division of software projects into layers, where each layer has a specific responsibility. This approach aims to create an internal structure by inverting the dependencies of the software. To implement Onion Architecture using Angular for building a mini e-commerce application, you can follow the steps below
