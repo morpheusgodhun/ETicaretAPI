@@ -1,15 +1,19 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using ETicaretAPI.Application.Abstraction;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ETicaretAPI.API.Controllers {
     [Route("api/[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase {
-
-        public IActionResult GetProducts()
-        {
-            return Ok();
+        private readonly IProductService _productService;
+        public ProductsController(IProductService productService) {
+            _productService = productService;
         }
-
+        [HttpGet]
+        public IActionResult GetProducts() {
+           var products= _productService.GetProducts();
+            return Ok(products);
+        }
     }
 }
