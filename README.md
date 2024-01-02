@@ -1,4 +1,4 @@
-![Görsel API'den](wwwroot/photo-images/apison)
+![Görsel API'den](/wwwroot/photo-images/apison.png)
 
 # Building a Mini E-Commerce with Onion Architecture Using Angular
 
