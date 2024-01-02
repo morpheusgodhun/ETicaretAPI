@@ -1,4 +1,4 @@
-![API Görsel](ETicaretAPI/apison.png)
+![API Görsel](apison.png)
 
 # Building a Mini E-Commerce with Onion Architecture Using Angular
 
