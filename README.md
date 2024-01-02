@@ -83,7 +83,7 @@ Use Angular services in the application layer to connect the user interface to t
 [MIT](https://choosealicense.com/licenses/mit/)
 
   
-![Proje Logo](images/OB.png)
+![Proje Logo](photo-images/apison)
     
 ## Bilgisayarınızda Çalıştırın
 
