@@ -1,3 +1,4 @@
+![Görsel API'den](wwwroot/photo-images/apison)
 
 # Building a Mini E-Commerce with Onion Architecture Using Angular
 
@@ -83,7 +84,8 @@ Use Angular services in the application layer to connect the user interface to t
 [MIT](https://choosealicense.com/licenses/mit/)
 
   
-![Proje Logo](photo-images/apison)
+
+
     
 ## Bilgisayarınızda Çalıştırın
 
